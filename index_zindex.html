@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Index</title>
+    <style>
+        div.red{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position:fixed;
+            top:0;
+            z-index: 5;
+        }
+        div.green{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            position: fixed;
+            top: 30px;
+            left: 60px;
+            z-index: 7;
+
+
+            
+
+        }
+        div.blue{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: fixed;
+            top: 70px;
+            left: 90px;
+            z-index: 2;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="red">
+        <p>red</p>
+    </div>
+
+    <div class="green">
+        <p>green</p>
+    </div>
+
+    <div class="blue">
+        <p>blue</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table class</title>
+    <style>
+
+        table,th,td{
+            border:3px solid peachpuff;
+
+        }
+        table{
+            border-collapse: collapse;
+            width:80%;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        th{
+            height: 70px;
+
+        }
+        td{
+            height:50px;
+            text-align: center;
+            vertical-align: bottom;   
+
+        }
+        tr:nth-child(even){
+            background-color: lightgray;
+        }
+        tr:hover{
+            background-color: coral;
+        }
+        
+        
+    </style>
+</head>
+<body>
+
+    <table border="1">
+
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+        </tr>
+        <tr>
+            <td>Lois</td>
+            <td>Smith</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
