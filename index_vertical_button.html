@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Button Group</title>
+    <style>
+        .btn-group button{
+            background-color: #04AA6D;
+            border:1px solid green;
+            color: white;
+            padding: 10px 24px;
+            cursor: pointer;
+            width: 50%;
+            display: block;
+        }
+        .btn-group button:not(:last-child){
+            border-right: none;
+        }
+        .btn-group button:hover{
+            background-color: rgb(5, 118, 81);
+        }
+    </style>
+</head>
+<body>
+    <div class="btn-group">
+        <button>Apple</button>
+        <button>Sony</button>
+        <button>Samsung</button>
+    </div>
+</body>
+</html>
