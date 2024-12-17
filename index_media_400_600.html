@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Small Medium Large</title>
+    <style>
+        body{
+            background-color: rgb(240, 221, 186);
+        }
+        @media screen and (min-width: 400) and (max-width: 600px) {
+            body{
+                background-color: lightgreen;
+            }
+        }
+        @media screen and (min-width: 600) and (max-width: 800px)  {
+            body{
+                background-color: lavender;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Resize the browser window to see the effect!</h1>
+    <p>Use mediaqueries to set the background-color to lavender if the viewport is 800 pixels wide or wider, to lightgreen if the viewport is between 400 and 799 pixels wide. If the viewport is smaller than 400 pixels, the background-color is lightblue.</p> 
+</body>
+</html>
